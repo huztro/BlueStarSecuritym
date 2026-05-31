@@ -1,1 +1,26 @@
-
+{
+  "name": "security-discord-bot",
+  "version": "1.0.0",
+  "description": "All-in-one Discord security bot with automod, verification, and protection systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "security",
+    "automod",
+    "verification",
+    "discord.js"
+  ],
+  "author": "ItzHuztro",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
