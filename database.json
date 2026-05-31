@@ -1,1 +1,39 @@
-
+{
+  "guilds": {
+    "GUILD_ID": {
+      "prefix": "!",
+      "automod": {
+        "enabled": true,
+        "antilink": true,
+        "antiinvite": true,
+        "antispam": true
+      },
+      "badwords": [],
+      "verify": {
+        "enabled": false,
+        "type": "button",
+        "role": null,
+        "channel": null
+      },
+      "autoreact": {
+        "enabled": true,
+        "trigger": [
+          "itzhuztro",
+          "<@BOT_ID>"
+        ],
+        "emoji": "👑"
+      },
+      "logs": {
+        "channel": null
+      },
+      "security": {
+        "antiraid": false,
+        "lockdown": false
+      },
+      "stats": {
+        "verifiedUsers": 0,
+        "blockedMessages": 0
+      }
+    }
+  }
+}
